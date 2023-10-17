@@ -1,0 +1,200 @@
+$selectOptionColor: #242D48;
+$black: #000;
+$white: #fff;
+$whiteish: #f7f7f7;
+$checkboxBorderColor: #E4E4E4;
+$totalAmountBackgroundColor: #ECEDEE;
+$totalAmountTextColor: #242D48;
+
+
+
+.choose-location-wrapper-helper{
+    max-width: 800px;
+    .heading-block{
+        margin-bottom: 44px;
+        &.line-none::after{
+            content: none;
+        }
+    }
+    .location-label-image{
+        margin-bottom: 30px;
+    }
+
+    .choosing-window{
+        background: $whiteish;
+        border-radius: 30px;
+        margin-bottom: 82px;
+
+        &.second{
+            margin-bottom: 52px;
+        }
+        &.saved-card {
+            background: white;
+        }
+    }
+
+    .choose-location-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        color: $black;
+        margin-top: 37px;
+    }
+
+    .choose-location-input{
+        max-width: 380px;
+        min-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .choose-location-select{
+        max-width: 380px;
+        min-height: 52px;
+        padding: 14px 0 16px 15px;
+        width: 100%;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: $selectOptionColor;
+        background: $white;
+        border: 1px solid $checkboxBorderColor;
+        box-sizing: border-box;
+        border-radius: 5px;
+        &.choose-location-select-option{
+
+        }
+    }
+
+    .choose-location-additional-locations{
+        padding-top: 35px;
+        width: 500px;
+        &.second{
+            padding-top: 20px;
+            margin-bottom: 37px;
+        }
+    }
+
+    .choose-location-additional-locations-payment {
+        padding-top: 35px;
+        width: 380px;
+    }
+
+    .choose-location-additional-locations-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        color: $black;
+        margin-bottom: 45px;
+
+        &.exp-date{
+            margin-bottom: 12px;
+        }
+    }
+
+    .choose-location-additional-locations-checkbox{
+        width: 18px;
+        height: 18px;
+        margin-right: 20px;
+        background: $whiteish;
+        border-radius: 30px;
+    }
+
+    .choose-location-additional-locations-location{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.01em;
+        color: $selectOptionColor;
+
+    }
+
+    .choose-location-additional-locations-location-price{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0.01em;
+        color: $selectOptionColor;
+    }
+
+    .submit-button{
+        max-width: 400px;
+        width: 400px;
+        height: 60px;
+        background: #3F95FF;
+        border-radius: 30px;
+        border: none;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 24px;
+        color: $white;
+    }
+
+    .choose-location-total-amount{
+        min-height: 68px;
+        background: $totalAmountBackgroundColor;
+        margin-bottom: 33px;
+    }
+
+    .choose-location-total-amount-block{
+        width: 380px;
+    }
+
+    .choose-location-total-amount-block-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: $totalAmountTextColor;
+    }
+
+    .choose-location-total-amount-block-total-price{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: $totalAmountTextColor;
+    }
+
+    .choose-location-select-date, .choose-location-input-cvv-code{
+        font-family: Lato, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: #7C8191;
+        width: 100%;
+        min-height: 50px;
+        background: $white;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 14px 0 14px 12px;
+        margin: 0;
+
+        .choose-location-select-date-option{
+
+        }
+    }
+
+    .exp-date-column{
+        max-width: 120px;
+    }
+}
+
+#page-title{
+    &.make-padding-smaller{
+        padding: 5px 0 0;
+    }
+}

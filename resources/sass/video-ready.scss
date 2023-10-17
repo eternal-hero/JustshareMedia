@@ -1,0 +1,116 @@
+$selectOptionColor: #242D48;
+$black: #000;
+$white: #fff;
+$whiteish: #f7f7f7;
+$checkboxBorderColor: #E4E4E4;
+$totalAmountBackgroundColor: #ECEDEE;
+$totalAmountTextColor: #242D48;
+$infoBlockTitleColor: #333333;
+
+
+
+.video-ready-wrapper-helper{
+    max-width: 800px;
+    .heading-block{
+        margin-bottom: 21px;
+        &.line-none::after{
+            content: none;
+        }
+    }
+    .location-label-image{
+        margin-bottom: 27px;
+    }
+
+    .video-ready-re-download-text{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px !important;
+        color: $black;
+        margin-bottom: 27px !important;
+    }
+
+    .video-ready-re-download-button{
+        background: #3F95FF;
+        border-radius: 30px;
+        width: 400px;
+        max-width: 400px;
+        height: 100px;
+        max-height: 60px;
+        font-family: Lato, serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 24px;
+        color: $white;
+        margin-bottom: 96px;
+    }
+
+    .video-ready-info-block{
+        padding-top: 56px;
+        background-color: $whiteish;
+    }
+
+    .video-ready-info-block-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        color: $infoBlockTitleColor;
+        margin-bottom: 47px;
+    }
+
+    .video-ready-info-block-mini-block{
+        padding: 20px;
+        max-width: 263px;
+        width: 100vw;
+        background: $white;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+        &.margin-right{
+            margin-right: 50px;
+        }
+    }
+
+    .video-ready-info-block-mini-block-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        color: $black;
+    }
+    .video-ready-info-block-mini-block-text{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: $black;
+    }
+
+    .video-ready-faq{
+        margin-top: 46px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .video-ready-faq-link{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration-line: underline !important;
+    }
+}
+
+#page-title{
+    &.make-padding-smaller{
+        padding: 5px 0 0;
+    }
+}
